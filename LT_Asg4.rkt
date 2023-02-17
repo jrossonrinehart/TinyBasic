@@ -18,6 +18,8 @@
 
 (define (lensort a b)
   (< (length a) (length b)))
+ 
+(sort '((4 5 7) (1 2) (4 5 6 7 8)) lensort)
 
         
 
